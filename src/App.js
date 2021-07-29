@@ -8,9 +8,8 @@ function App() {
     <Router>
       <div>
         <nav className='header'>
-          <div className="nav_item"></div>
           <ul className='navbar'>
-            <li className='nav_item'>
+            <li className='nav_item nav_item_center'>
               <h1 className="logo">cardlang</h1>
             </li>
             <li className='nav_item'>

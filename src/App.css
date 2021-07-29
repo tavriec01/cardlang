@@ -1,24 +1,12 @@
-.small_img {
-  max-width: 50px;
-  max-height: 150px;
-}
-
-li {
-  list-style-type: none;
-}
-
-.nav_item {
-  display: inline-block;
-  margin: 10px;
-}
-
 .header {
   text-align: justify;
   letter-spacing: 1px;
-  height: 8em;
+  height: 5em;
   background: #2c3e50;
   color: #fff;
   width: 100%;
+  padding: 30px;
+  position: relative;
 }
 
 .header::after {
@@ -37,14 +25,31 @@ li {
   opacity: 0.7;
 }
 
-.logo {
-  font-size: 50px;
-  display: block;
-  padding-right: 50px;
+.small_img {
+  max-width: 50px;
+  max-height: 150px;
+}
+
+li {
+  list-style-type: none;
 }
 
 .navbar {
   margin: 0px;
+  padding: 0px;
+  position: absolute;
+  bottom: 1px;
+}
+
+.nav_item {
+  display: inline-block;
+  margin: 10px;
+}
+
+.logo {
+  font-size: 50px;
+  display: block;
+  padding-right: 50px;
 }
 
 .flag_chose a {
@@ -63,6 +68,14 @@ li {
     display: inline-block;
     text-align: center;
     margin: 0%;
+  }
+
+  .navbar {
+    position: relative;
+  }
+
+  .nav_item_center {
+    width: 100%;
   }
 
   .logo {

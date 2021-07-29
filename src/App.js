@@ -26,6 +26,9 @@ function App() {
         <Switch>
           <Route path="/about">
             <About />
+          </Route>          
+          <Route path="/cards">
+            <Cards />
           </Route>
           <Route path="/">
             <Home />
@@ -38,14 +41,11 @@ function App() {
 
 function Home() {
   return (
-    <ul className="flag_chose white_block">
-      <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/33px-Flag_of_the_United_Kingdom.svg.png" alt="" /> English</a></li>
-      <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Poland_%281928–1980%29.svg/33px-Flag_of_Poland_%281928–1980%29.svg.png" alt="" /> Polski</a> </li>
-      <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/33px-Flag_of_Finland.svg.png" alt="" /> Suomi</a></li>
-      <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/33px-Flag_of_the_United_Kingdom.svg.png" alt="" /> English</a></li>
-      <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Poland_%281928–1980%29.svg/33px-Flag_of_Poland_%281928–1980%29.svg.png" alt="" /> Polski</a> </li>
-      <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/33px-Flag_of_Finland.svg.png" alt="" /> Suomi</a></li>
-    </ul>
+      <div className="flag_chose">
+        <div className='flag_chose_item white_block'><NavLink to="/cards"><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/33px-Flag_of_the_United_Kingdom.svg.png" alt="" /> English</NavLink></div>
+        <div className='flag_chose_item white_block'><NavLink to="/cards"><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Poland_%281928–1980%29.svg/33px-Flag_of_Poland_%281928–1980%29.svg.png" alt="" /> Polski</NavLink> </div>
+        <div className='flag_chose_item white_block'><NavLink to="/cards"><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/33px-Flag_of_Finland.svg.png" alt="" /> Suomi</NavLink></div>
+      </div>
 
     
   );
@@ -61,5 +61,13 @@ function About() {
   );
 }
 
+function Cards() {
+  return (
+    <div className="card_table">
+      <div className="card"></div>
+    </div>
+    
+  );
+}
 
 export default App;

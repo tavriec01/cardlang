@@ -16,7 +16,7 @@
 }
 
 .header a {
-  font-size: 25px;
+  font-size: 30px;
   color: antiquewhite;
   text-decoration: none;
 }
@@ -52,6 +52,11 @@ li {
   padding-right: 50px;
 }
 
+.flag_chose {
+  width: 100%;
+  margin-left: 30px;
+}
+
 .flag_chose a {
   text-decoration: none;
   color: black;
@@ -59,6 +64,27 @@ li {
 
 .flag_chose_item {
   margin: 20px;
+  display: inline-block;
+}
+
+.about {
+  margin: 90px;
+  width: 50%;
+}
+
+.about h2 {
+  font-size: 40px;
+}
+
+.about_text {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.white_block {
+  background-color: rgb(236, 243, 174);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 600px) {

@@ -38,7 +38,10 @@ function App() {
 
 function Home() {
   return (
-    <ul className="flag_chose">
+    <ul className="flag_chose white_block">
+      <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/33px-Flag_of_the_United_Kingdom.svg.png" alt="" /> English</a></li>
+      <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Poland_%281928–1980%29.svg/33px-Flag_of_Poland_%281928–1980%29.svg.png" alt="" /> Polski</a> </li>
+      <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/33px-Flag_of_Finland.svg.png" alt="" /> Suomi</a></li>
       <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/33px-Flag_of_the_United_Kingdom.svg.png" alt="" /> English</a></li>
       <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Poland_%281928–1980%29.svg/33px-Flag_of_Poland_%281928–1980%29.svg.png" alt="" /> Polski</a> </li>
       <li className='flag_chose_item'><a href=""><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/33px-Flag_of_Finland.svg.png" alt="" /> Suomi</a></li>
@@ -49,7 +52,13 @@ function Home() {
 }
 
 function About() {
-  return <h2>About</h2>;
+  return (
+    <div className="about white_block">
+      <h2>About</h2>
+      <div className="about_text">This project is based on the method of learning foreign languages by the pictures. The association occurs directly with the object on the picture and not with the word of the native language. Thus, the study of vocabulary is much faster and easier.</div>
+      <div className="about_text">v0.1</div>
+    </div>
+  );
 }
 
 

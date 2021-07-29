@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link, Switch, NavLink } from "react-router-dom";
-
+import Cards from './cardlang/Cards.js';
 
 function App() {
   return (
@@ -61,13 +61,6 @@ function About() {
   );
 }
 
-function Cards() {
-  return (
-    <div className="card_table">
-      <div className="card"></div>
-    </div>
-    
-  );
-}
+
 
 export default App;

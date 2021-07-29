@@ -55,6 +55,10 @@ li {
 .flag_chose {
   width: 95%;
   margin-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .flag_chose a {
@@ -64,11 +68,7 @@ li {
 
 .flag_chose_item {
   margin: 20px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  width: 20%;
-  flex-wrap: wrap;
+  width: 100px;
 }
 
 .about {
@@ -89,6 +89,22 @@ li {
   background-color: rgb(241, 234, 132);
   border-radius: 10px;
   padding: 20px;
+}
+
+.card_table {
+  margin: 70px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap-reverse;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(241, 234, 132);
+  font-size: 50px;
+  text-align: center;
+  border-radius: 30px;
 }
 
 @media screen and (max-width: 600px) {

@@ -42,9 +42,24 @@ function App() {
 function Home() {
   return (
       <div className="flag_chose">
-        <div className='flag_chose_item white_block'><NavLink to="/cards"><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/33px-Flag_of_the_United_Kingdom.svg.png" alt="" /> English</NavLink></div>
-        <div className='flag_chose_item white_block'><NavLink to="/cards"><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Poland_%281928–1980%29.svg/33px-Flag_of_Poland_%281928–1980%29.svg.png" alt="" /> Polski</NavLink> </div>
-        <div className='flag_chose_item white_block'><NavLink to="/cards"><img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/33px-Flag_of_Finland.svg.png" alt="" /> Suomi</NavLink></div>
+        <div className='flag_chose_item white_block'>
+          <NavLink to="/cards">
+            <img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/33px-Flag_of_the_United_Kingdom.svg.png" alt="" />
+             English
+          </NavLink>
+        </div>
+        <div className='flag_chose_item white_block'>
+          <NavLink to="/cards">
+            <img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Poland_%281928–1980%29.svg/33px-Flag_of_Poland_%281928–1980%29.svg.png" alt="" />
+             Polski
+          </NavLink> 
+        </div>
+        <div className='flag_chose_item white_block'>
+          <NavLink to="/cards">
+            <img className='small_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/33px-Flag_of_Finland.svg.png" alt="" />
+             Suomi
+          </NavLink>
+        </div>
       </div>
 
     

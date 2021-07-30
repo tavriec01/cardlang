@@ -50,6 +50,7 @@ li {
   font-size: 50px;
   display: block;
   padding-right: 50px;
+  
 }
 
 .flag_chose {
@@ -105,9 +106,12 @@ li {
   font-size: 50px;
   text-align: center;
   border-radius: 30px;
-  background-image: url("cardlang/plus.png");
-  background-position: center;
-  background-size: 375px 375px;
+}
+
+.plus {
+    background-image: url("cardlang/plus.png");
+    background-position: center;
+    background-size: 375px 375px;
 }
 
 .form {

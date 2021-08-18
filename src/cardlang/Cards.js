@@ -43,11 +43,11 @@ export default class Cards extends Component {
                             <input value={this.state.input} onChange={this.handleChange}/>
                         </div>
                         <div className="input">
-                            <button type="submit">Add</button>
+                            <button className="button" type="submit">Add</button>
                         </div>
                     </form>
                 </div>
-                <div className="card_table">
+                <div className="card-table">
                     <div className="card">
                         <p>Type your image URL and Word, then click on button Add</p> 
                     </div>                    

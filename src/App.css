@@ -96,7 +96,7 @@ li {
   margin: 70px;
   display: flex;
   align-items: flex-start;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -106,6 +106,8 @@ li {
   font-size: 50px;
   text-align: center;
   border-radius: 30px;
+  padding-top: 0px;
+  margin: 30px;
 }
 
 .plus {
